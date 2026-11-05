@@ -1,0 +1,9 @@
+{
+  "name": "Aplikasi Saya",
+  "short_name": "Aplikasi",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f7a5c",
+  "lang": "id"
+}
