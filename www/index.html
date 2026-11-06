@@ -1,25 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0f7a5c">
-<link rel="manifest" href="manifest.webmanifest">
-<title>Aplikasi Saya</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mysha AI</title>
 <style>
-body{margin:0;font:16px/1.6 system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;padding:24px;text-align:center;color:#16241f}
-h1{margin:0 0 8px}
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:white;font-family:Arial,sans-serif}
+header{padding:18px;background:#161e33;font-size:22px;font-weight:bold;text-align:center}
+iframe{width:100%;height:calc(100dvh - 65px);border:none;background:white}
 </style>
 </head>
 <body>
-<main>
-<h1>Aplikasi Saya</h1>
-<p>Halo! Aplikasi berhasil berjalan di HP.</p>
-</main>
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js").catch(function () {});
-}
-</script>
+<header>✨ Mysha AI</header>
+<iframe src="https://mysha-id-v3.nababanmanto46.workers.dev/" title="Mysha AI"></iframe>
 </body>
 </html>
