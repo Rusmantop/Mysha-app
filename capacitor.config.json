@@ -1,5 +1,10 @@
+
 {
   "appId": "com.sekolah.aplikasi",
-  "appName": "Mysha apk",
-  "webDir": "www"
+  "appName": "Mysha AI",
+  "webDir": "www",
+  "server": {
+    "url": "https://mysha-id-v3.nababanmanto46.workers.dev/",
+    "cleartext": false
+  }
 }
